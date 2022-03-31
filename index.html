@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css " />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <a href="./index.html" class="header-logo link logo"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
+          <ul class="site-nav list-style list">
+            <li><a href="./index.html" class="link link-current">Студия</a></li>
+            <li><a href="./portfolio.html " class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="site-contacts list-style list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link mail"
+              ><svg class="envelope" width="16" height="12">
+                <use
+                  href="./images/homework-4/symbol-defs.svg#envelope"
+                ></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link tel"
+              ><svg class="smartphone" width="10" height="16">
+                <use
+                  href="./images/homework-4/symbol-defs.svg#smartphone"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Герой -->
+      <section class="hero">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button" data-modal-open>Заказать услугу</button>
+      </section>
+
+      <!-- Наши преимущества -->
+      <section class="our-features">
+        <div class="container">
+          <h2 class="title-section-features">Наши преимущества</h2>
+          <ul class="list-style features-list">
+            <li class="features">
+              <div class="features-bg">
+                <svg width="70" height="70">
+                  <use href="./images/homework-4/symbol-defs.svg#antenna"></use>
+                </svg>
+              </div>
+              <h3 class="title">Внимание к деталям</h3>
+              <p class="text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features">
+              <div class="features-bg">
+                <svg width="70" height="70">
+                  <use href="./images/homework-4/symbol-defs.svg#clock"></use>
+                </svg>
+              </div>
+              <h3 class="title">Пунктуальность</h3>
+              <p class="text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features">
+              <div class="features-bg">
+                <svg width="70" height="70">
+                  <use href="./images/homework-4/symbol-defs.svg#diagram"></use>
+                </svg>
+              </div>
+              <h3 class="title">Планирование</h3>
+              <p class="text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features">
+              <div class="features-bg">
+                <svg width="70" height="70">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#astronaut"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="title">Современные технологии</h3>
+              <p class="text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Чем мы занимаемся -->
+      <section class="section we-do">
+        <div class="container">
+          <h2 class="title">Чем мы занимаемся</h2>
+          <ul class="list-style we-do-list">
+            <li class="we-do-element">
+              <img
+                class="image"
+                src="./images/homework-1/box1.jpg"
+                alt="Рабочий стол"
+                width="370"
+                height="294"
+              />
+              <div class="description-card">
+                <p class="description-title">Десктопные приложения</p>
+              </div>
+            </li>
+            <li class="we-do-element">
+              <img
+                class="image"
+                src="./images/homework-1/box2.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
+              <div class="description-card">
+                <p class="description-title">Мобильные приложения</p>
+              </div>
+            </li>
+            <li class="we-do-element">
+              <img
+                class="image"
+                src="./images/homework-1/box3.jpg"
+                alt="Планшетный компьютер"
+                width="370"
+                height="294"
+              />
+              <div class="description-card">
+                <p class="description-title">Дизайнерские решения</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Наша команда -->
+      <section class="section-team section">
+        <div class="container">
+          <h2 class="title">Наша команда</h2>
+          <ul class="list-style team-list">
+            <li>
+              <div class="team-card">
+                <img
+                  class="image"
+                  src="./images/homework-1/img.jpg"
+                  alt="Игорь Демьяненко"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-text">
+                  <h3 class="name">Игорь Демьяненко</h3>
+                  <p class="text">Product Designer</p>
+                  <ul class="social-links">
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#twitter-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="team-card">
+                <img
+                  class="image"
+                  src="./images/homework-1/img-1.jpg"
+                  alt="Ольга Репина"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-text">
+                  <h3 class="name">Ольга Репина</h3>
+                  <p class="text">Frontend Developer</p>
+                  <ul class="social-links">
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#twitter-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="team-card">
+                <img
+                  class="image"
+                  src="./images/homework-1/img-2.jpg"
+                  alt="Николай Тарасов"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-text">
+                  <h3 class="name">Николай Тарасов</h3>
+                  <p class="text">Marketing</p>
+                  <ul class="social-links">
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#twitter-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="team-card">
+                <img
+                  class="image"
+                  src="./images/homework-1/img-3.jpg"
+                  alt="Михаил Ермаков"
+                  width="270"
+                  height="260"
+                />
+                <div class="card-text">
+                  <h3 class="name">Михаил Ермаков</h3>
+                  <p class="text">UI Designer</p>
+                  <ul class="social-links">
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#twitter-1"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="link-bg">
+                        <svg class="social-icon" width="20" height="20">
+                          <use
+                            href="./images/homework-4/symbol-defs.svg#linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Постоянные клиенты -->
+      <section class="our-clients">
+        <div class="container">
+          <h2 class="title">Постоянные клиенты</h2>
+          <ul class="company-list">
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-3"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-4"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-5"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="company-link">
+                <svg class="company-logo" width="106" height="60">
+                  <use
+                    href="./images/homework-4/symbol-defs.svg#company-6"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-contacts">
+          <a href="index.html" class="footer-logo link logo"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <address class="adres-list">
+          <ul class="adress list-style">
+            <li class="street-adress">
+              <a href="" class="name-street link"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="mail-adress">
+              <a href="mailto:info@example.com" class="link"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+          <div class="footer-follow">
+            <p class="follow">Присоединяйтесь</p>
+            <ul class="footer-link-list">
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#instagram-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#twitter-1-2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#facebook-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use href="./images/homework-4/symbol-defs.svg#linkedin-footer"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </address>
+
+        <!-- Форма в футере -->
+        <div class="footer-form">
+          <form action="">
+            <p class="follow-form">Подпишитесь на рассылку</p>
+            <input class="field" type="email" name="mail-follow" placeholder="E-mail">
+            <button class="button-footer" type="submit">
+              Подписаться
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/homework-4/symbol-defs.svg#icon-form"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Модалка -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-modal" data-modal-close>
+          <svg class="close-icon" width="18" height="18">
+            <use href="./images/homework-4/symbol-defs.svg#close-icon"></use>
+          </svg>
+        </button>
+
+        <!-- Форма в модалке -->
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form class="form" action="">
+          <div class="form-part">
+            <label class="field-modal-form">
+              <span class="field-name">Имя</span>
+              <input class="field-title" type="text" name="name-user">
+            </label>
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/homework-4/symbol-defs.svg#person-form"></use>
+            </svg>
+          </div>
+          <div class="form-part">
+            <label class="field-modal-form">
+              <span class="field-name">Телефон</span>
+              <input class="field-title" type="tel" name="telephone">
+            </label>
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/homework-4/symbol-defs.svg#phone-form"></use>
+            </svg>
+          </div>
+          <div class="form-part">
+            <label class="field-modal-form">
+              <span class="field-name">Почта</span>
+              <input class="field-title" type="email" name="mail">
+            </label>
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/homework-4/symbol-defs.svg#email-form"></use>
+            </svg>
+          </div>
+          <label class="field-modal-form">
+            <span class="field-name">Комментарий</span>
+            <textarea class="field-title-comment" name="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+          </label>
+          <div class="agree-checkbox">
+            <label class="checkbox">
+              <input class="checkbox-field" type="checkbox" name="agree-follow">
+              <span class="custom-checkbox">
+                <svg class="checkbox-vector" width="11" height="8">
+                  <use href="./images/homework-4/symbol-defs.svg#vector-form"></use>
+                </svg>
+              </span>
+              <div class="agree-text">Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия договора</a></div>
+            </label>
+          </div>
+          <button class="button-modal-form" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Скрипт -->
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="container">
+        <nav class="main-nav">
+          <a href="./index.html" class="header-logo link logo"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
+          <ul class="site-nav list-style list">
+            <li><a href="./index.html" class="link">Студия</a></li>
+            <li><a href="./portfolio.html " class="link link-current">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="site-contacts list-style list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link mail"
+              ><svg class="envelope">
+                <use
+                  href="./images/homework-4/symbol-defs.svg#envelope"
+                  width="16"
+                  height="12"
+                ></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link tel"
+              ><svg class="smartphone">
+                <use
+                  href="./images/homework-4/symbol-defs.svg#smartphone"
+                  width="10"
+                  height="16"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- Герой -->
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="title-portfolio">Портфолио</h1>
+          <!-- Фильтр -->
+          <ul class="list-style filter">
+            <li class="filter-title">
+              <button type="button" class="button-filter">Все</button>
+            </li>
+            <li class="filter-title">
+              <button type="button" class="button-filter">Веб-сайты</button>
+            </li>
+            <li class="filter-title">
+              <button type="button" class="button-filter">Приложения</button>
+            </li>
+            <li class="filter-title">
+              <button type="button" class="button-filter">Дизайн</button>
+            </li>
+            <li class="filter-title">
+              <button type="button" class="button-filter">Маркетинг</button>
+            </li>
+          </ul>
+          <!-- Примеры работ -->
+          <ul class="list-style example">
+            <li class="example-element">
+             <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img.jpg"
+                alt="Изображение в ноутбуке"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Технокряк</h2>
+                <p class="text type">Веб-сайт</p>
+              </div>
+             </a>
+            </li>
+            <li class="example-element">
+              <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-1.jpg"
+                alt="Два баскетболиста"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Постер New Orlean vs Golden Star</h2>
+                <p class="text type">Дизайн</p>
+              </div>
+              </a>
+            </li>
+            <li class="example-element">
+             <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-2.jpg"
+                alt="Надпись-логотип Seafood"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Ресторан Seafood</h2>
+                <p class="text type">Приложение</p>
+              </div>
+             </a>
+            </li>
+            <li class="example-element">
+              <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-3.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Проект Prime</h2>
+                <p class="text type">Маркетинг</p>
+              </div>
+              </a>
+            </li>
+            <li class="example-element">
+              <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-4.jpg"
+                alt="Две коробочки"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Проект Boxes</h2>
+                <p class="text type">Приложение</p>
+              </div>
+              </a>
+            </li>
+            <li class="example-element">
+              <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-5.jpg"
+                alt="Монитор компьютера"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Inspiration has no Borders</h2>
+                <p class="text type">Веб-сайт</p>
+              </div>
+              </a>
+            </li>
+            <li class="example-element">
+             <a href="" class="example-link">
+               <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-6.jpg"
+                alt="Открытый журнал"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+             </div>
+              <div class="card">
+                <h2 class="company">Издание Limited Edition</h2>
+                <p class="text type">Дизайн</p>
+              </div>
+             </a>
+            </li>
+            <li class="example-element">
+             <a href="" class="example-link">
+               <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-7.jpg"
+                alt="Этикетка на верёвочке"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+             </div>
+              <div class="card">
+                <h2 class="company">Проект LAB</h2>
+                <p class="text type">Маркетинг</p>
+              </div>
+             </a>
+            </li>
+            <li class="example-element">
+              <a href="" class="example-link">
+                <div class="example-image">
+                <img
+                class="image"
+                src="./images/homework-2/img-8.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+                />
+                <div class="example-description">
+                  <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              </div>
+              <div class="card">
+                <h2 class="company">Growing Business</h2>
+                <p class="text type">Приложение</p>
+              </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-contacts">
+          <a href="index.html" class="footer-logo link logo"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <address class="adres-list">
+          <ul class="adress list-style">
+            <li class="street-adress">
+              <a href="" class="name-street link"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="mail-adress">
+              <a href="mailto:info@example.com" class="link"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+          <div class="footer-follow">
+            <p class="follow">Присоединяйтесь</p>
+            <ul class="footer-link-list">
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#instagram-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#twitter-1-2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use
+                      href="./images/homework-4/symbol-defs.svg#facebook-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="footer-link-bg">
+                  <svg class="footer-link-icon" width="20" height="20">
+                    <use href="./images/homework-4/symbol-defs.svg#linkedin-footer"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </address>
+
+        <!-- Форма в футере -->
+        <div class="footer-form">
+          <form action="">
+            <p class="follow-form">Подпишитесь на рассылку</p>
+            <input class="field" type="email" placeholder="E-mail" id="mail">
+            <button class="button-footer" type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
