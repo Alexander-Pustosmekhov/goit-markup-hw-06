@@ -527,7 +527,7 @@ p {
   border-color: var(--accent-color);
 }
 
-.field-modal-form:focus-within + .modal-form-icon {
+.field-modal-form:focus-within .modal-form-icon {
   fill: var(--accent-color);
 }
 
