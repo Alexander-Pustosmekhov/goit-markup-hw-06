@@ -531,6 +531,10 @@ p {
   fill: var(--accent-color);
 }
 
+.field-modal-form.textarea {
+  margin-bottom: 0px;
+}
+
 .field-title-comment {
   display: block;
   margin-left: auto;
